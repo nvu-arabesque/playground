@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "envFile": "${workspaceFolder}/.env/local.env",
+            "args": [
+                "main:api",
+                "--reload",
+                "--port",
+                "8001",
+                "--log-config=logging.ini"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintArgs": ["-d", "C0301"],
+  "python.linting.enabled": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "python.formatting.blackPath": "/Users/nvu/python3/venv/jax-env/bin/black",
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E402,F841,F401,E302,E305"
+  ]
+}
